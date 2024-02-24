@@ -3,7 +3,7 @@ Version: 3.1-5
 Architecture: iphoneos-arm
 Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
-Filename: /root/repo2/debs/rootless/root/repo2/debs/rootfull/斗图助手3.1-5.deb
+Filename: debs/rootless/root/repo2/debs/rootfull/斗图助手3.1-5.deb
 Size: 1778878
 MD5sum: 502355b071834836ff680a07f65de218
 SHA1: 06c4d6bafac28d377cd65c2a142fd955e15f3c82
@@ -19,7 +19,7 @@ Version: 3.7-6
 Architecture: iphoneos-arm
 Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
-Filename: /root/repo2/debs/rootless/root/repo2/debs/rootfull/微信助手3.7-6.deb
+Filename: debs/rootless/root/repo2/debs/rootfull/微信助手3.7-6.deb
 Size: 13736298
 MD5sum: 22dd481114f816cd307236df8724f621
 SHA1: 6cbd97f0eec3f57903f4d9554745b752e199534c
@@ -36,7 +36,7 @@ Architecture: iphoneos-arm
 Maintainer: LK
 Installed-Size: 164	.dragon/_
 Depends: mobilesubstrate
-Filename: /root/repo2/debs/rootless/root/repo2/debs/rootfull/com.langkhach.nicegram_0.0.1_iphoneos-arm.deb
+Filename: debs/rootless/root/repo2/debs/rootfull/com.langkhach.nicegram_0.0.1_iphoneos-arm.deb
 Size: 12840
 MD5sum: 090c1bb8e42e87603b252bc3a7826c42
 SHA1: aa969a05081a66aa7b3e4f7695fb3e785ee0d760
@@ -52,7 +52,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 2456
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Filename: /root/repo2/debs/rootless/root/repo2/debs/rootfull/netskao.appdata_1.4.1_iphoneos-arm.deb
+Filename: debs/rootless/root/repo2/debs/rootfull/netskao.appdata_1.4.1_iphoneos-arm.deb
 Size: 673816
 MD5sum: 90a7163ee3d29d7a97e26ac439a6c8a0
 SHA1: 5bf998bc82e22ce2d04347a1bb6b2b743a900ed9
@@ -67,7 +67,7 @@ Version: 3.1-5
 Architecture: iphoneos-arm
 Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
-Filename: /root/repo2/debs/rootfull/斗图助手3.1-5.deb
+Filename: debs/rootfull/斗图助手3.1-5.deb
 Size: 1778878
 MD5sum: 502355b071834836ff680a07f65de218
 SHA1: 06c4d6bafac28d377cd65c2a142fd955e15f3c82
@@ -83,7 +83,7 @@ Version: 3.7-6
 Architecture: iphoneos-arm
 Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
-Filename: /root/repo2/debs/rootfull/微信助手3.7-6.deb
+Filename: debs/rootfull/微信助手3.7-6.deb
 Size: 13736298
 MD5sum: 22dd481114f816cd307236df8724f621
 SHA1: 6cbd97f0eec3f57903f4d9554745b752e199534c
@@ -100,7 +100,7 @@ Architecture: iphoneos-arm
 Maintainer: LK
 Installed-Size: 164	.dragon/_
 Depends: mobilesubstrate
-Filename: /root/repo2/debs/rootfull/com.langkhach.nicegram_0.0.1_iphoneos-arm.deb
+Filename: debs/rootfull/com.langkhach.nicegram_0.0.1_iphoneos-arm.deb
 Size: 12840
 MD5sum: 090c1bb8e42e87603b252bc3a7826c42
 SHA1: aa969a05081a66aa7b3e4f7695fb3e785ee0d760
@@ -116,7 +116,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 2456
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Filename: /root/repo2/debs/rootfull/netskao.appdata_1.4.1_iphoneos-arm.deb
+Filename: debs/rootfull/netskao.appdata_1.4.1_iphoneos-arm.deb
 Size: 673816
 MD5sum: 90a7163ee3d29d7a97e26ac439a6c8a0
 SHA1: 5bf998bc82e22ce2d04347a1bb6b2b743a900ed9
@@ -132,7 +132,7 @@ Architecture: iphoneos-arm64e
 Maintainer: RootHide
 Installed-Size: 3112
 Depends: firmware (>= 15.0), odcctools, ldid, file, dpkg, gawk, plutil(>= 0.2.2-1), rsync
-Filename: /root/repo2/debs/roothide/com.roothide.patcher_1.5-13+debug_iphoneos-arm64e.deb
+Filename: debs/roothide/com.roothide.patcher_1.5-13+debug_iphoneos-arm64e.deb
 Size: 952392
 MD5sum: 263e005a07adefe52b462d5b3def09ae
 SHA1: c76b941bbe43edb04b761a512e97e7362ea592d4
@@ -150,7 +150,7 @@ Version: 3.1-5
 Architecture: iphoneos-arm64
 Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
-Filename: /root/repo2/debs/rootless/斗图助手3.1-5无根.deb
+Filename: debs/rootless/斗图助手3.1-5无根.deb
 Size: 1779718
 MD5sum: 219dbab48608d605c9dac4a0409ff23b
 SHA1: 9a4df2ce3959eecfd9da147de6bb067fa885171b
@@ -166,7 +166,7 @@ Version: 3.7-6
 Architecture: iphoneos-arm64
 Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
-Filename: /root/repo2/debs/rootless/微信助手3.7-6（无根）.deb
+Filename: debs/rootless/微信助手3.7-6（无根）.deb
 Size: 13736346
 MD5sum: 1cd1a36db89bf422a4a69b6a5f4c0fbe
 SHA1: 1b103bb6030a9339624f477be37a46dc5416a0ec
@@ -183,7 +183,7 @@ Architecture: iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 23032
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: /root/repo2/debs/rootless/netskao.appdata-rootless_1.4.1_iphoneos-arm64.deb
+Filename: debs/rootless/netskao.appdata-rootless_1.4.1_iphoneos-arm64.deb
 Size: 5071872
 MD5sum: 695c66f99c658bbe810d0d9db4046e58
 SHA1: 9628ae3121faf10420ab52a9c7573a736a70fa07
