@@ -12,7 +12,7 @@ Size: 14868
 MD5sum: 563cd8df2fcbbf643238e75b05bd6880
 SHA1: bbd0627eca584974c47aad5dc144e51f193874a9
 SHA256: 9d2a895a708bb951bb780ada8988c1967322297f4565ad2cd8c78aa7cf7c5053
-Section: wechat
+Section: Tweaks
 Priority: optional
 Description: CCAngelHelper
 Author: CC
@@ -178,7 +178,7 @@ Size: 14548
 MD5sum: 0fbd2916946dee3f4391cd20897a902c
 SHA1: 48748e1e384066410faeb4baf3190e9407b4742a
 SHA256: b90d9b0905e860ec2222a25f430489796c6777129188d23f6c1e11aba8d842ba
-Section: wechat
+Section: Tweaks
 Priority: optional
 Description: CCAngelHelper
 Author: CC
