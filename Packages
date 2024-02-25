@@ -595,7 +595,7 @@ Size: 5936
 MD5sum: c80ad5d3cbde99ae284d0127099ea9a7
 SHA1: 8fc779635de3f240e42f771e7795fc0cb209f300
 SHA256: 5874d57813970fa941068aca1cf07a2d47c0761df9ef015da11d4977d06099d1
-Section: Netskao
+Section: Tweaks
 Description: BatteryPercentX启用系统原生电池百分比，加深边框颜色，加深充电时电池颜色
 Author: Netskao
 Name: BatteryPercentX-Rootless
