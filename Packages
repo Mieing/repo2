@@ -8,7 +8,7 @@ Size: 1778878
 MD5sum: 502355b071834836ff680a07f65de218
 SHA1: 06c4d6bafac28d377cd65c2a142fd955e15f3c82
 SHA256: 8b079ca4c3aed6f66adcd21416e7db9d0753fa6505b3f608eadb79584aafcccd
-Section: Tweaks
+Section: wechat
 Priority: optional
 Description: 微信斗图助手
 Author: Mao
@@ -24,7 +24,7 @@ Size: 13736298
 MD5sum: 22dd481114f816cd307236df8724f621
 SHA1: 6cbd97f0eec3f57903f4d9554745b752e199534c
 SHA256: ffde6a01d4816b7a36daca9aedeae02e01c992b45af491c1990a59da4a4a385b
-Section: Tweaks
+Section: wechat
 Priority: optional
 Description: 微信助手
 Author: Mao
@@ -57,7 +57,7 @@ Size: 48458
 MD5sum: 1b6460fa9b7f341c4728dc603bd6b36d
 SHA1: e871f0dc7e250292b0c36e6a4e34a63b0a570445
 SHA256: 385b0e25f49b910d3f43a4330974f4b6e079aca3ccad920de20467639e88b306
-Section: 微信插件
+Section: wechat
 Priority: optional
 Description: 微信插件收纳
 Author: Mao
@@ -75,7 +75,7 @@ Size: 12840
 MD5sum: 090c1bb8e42e87603b252bc3a7826c42
 SHA1: aa969a05081a66aa7b3e4f7695fb3e785ee0d760
 SHA256: 87ed0b4b8df3cee3df23e59d68f3095f79f9e2eed246a9372dd49ef19eee8d3d
-Section: Tweaks
+Section: 破解
 Description: A cool MobileSubstrate Tweak made By TG@hiepkimcdtk55
 Author: LK
 Name: NiceGram
@@ -91,7 +91,7 @@ Size: 673816
 MD5sum: 90a7163ee3d29d7a97e26ac439a6c8a0
 SHA1: 5bf998bc82e22ce2d04347a1bb6b2b743a900ed9
 SHA256: c4c9025cd69678c46bce06ad1d58ca1160960cb4c9d155e82e74a42295a310dc
-Section: Netskao-Tweaks
+Section: Netskao
 Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据快捷工具，此版本由站长完整汉化并修改优化。修改优化:增加简单版降级应用，增加可选向下滑动唤出，增加查看应用加密状态，增加面板可选去除面板分割线，增加长按面板图标以安全模式启动，修改原版卸载应用为真实卸载不保留数据，修改原版清除缓存后未同步刷新总数据显示问题，修复原版更多信息页面长按复制的信息错误问题，修改原版重置数据为包括重置程序组内文件夹数据，修改原版重置数据栏数据大小显示为包括程序组内文件夹数据，修改原版重置数据后未同步刷新缓存数据显示和权限个数显示问题，修改原版在非AppStore中下载的应用唤出时无法使用重置数据/重置权限/卸载应用(修改后仅在系统应用上禁止)
 Author: Fouad Raheb
 Name: AppData
@@ -107,7 +107,7 @@ Size: 4464
 MD5sum: 167dd2d41e2d2130eb0a5781c1358a31
 SHA1: 0db6077719f24fc4f194a06e42c1bf96fc7bf095
 SHA256: 7318f1eeec50edece99273321f8617dae11a60066006562db968bff9143dfd44
-Section: 系统增强
+Section: 系统插件
 Description: Block applications from creating their own albums阻止应用程序创建自己的相册
 Author: Netskao
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -124,7 +124,7 @@ Size: 1150
 MD5sum: edf6f2e7861d002f97bdcad49991506c
 SHA1: 354283e617de147b0ef9b9dad69e70f4a86afce7
 SHA256: 5fe8765d1c2e4317e245d917fe4538503697f5ea3950f35f3210c0fa717bb6c8
-Section: 系统增强
+Section: 系统插件
 Description: 激活原生 iPhone 控制中心静音模块！
 Author: zhaonan
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -143,7 +143,7 @@ Size: 9330390
 MD5sum: 96a780848b29887943a25467019ec0c5
 SHA1: 4db4cbad3aa7a63a8fe7fc93cbc4a3032775085e
 SHA256: 7dba92927481bc2f41087f4c4eca262a921b3f7119d7c1f7442f532f301e7d1f
-Section: 微信插件
+Section: wechat
 Description: 这可能是最后一个版本了，本次更新是为了更改插件说明！高一个小版本是为了让大家看到更新了！由威锋论坛峰友jamkkes免费分享发布！感谢大佬无私奉献！也感谢精神小伙！微信净化还原聊天本质，干净的微信给你，完美支持8.0.29及以上8.0.46以下版本，高版本微信也可以使用，但是转发朋友圈或者其他功能可能会因年久失修而失效！设置位于微信-设置，请不要屏蔽微信越狱，不然不显示插件！微信净化是多少人的信仰插件，冲！
 Author: Netskao
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -160,7 +160,7 @@ Size: 3164
 MD5sum: 8cbe88bf568cba1ee92cd3b5f50953f6
 SHA1: d9b53ac4033171d7cbf9f4a6fa946c765f286979
 SHA256: d13b1f460a01d7366a8bcf528e7864f66ed086e4f52edce4185d678f1f5c9b6e
-Section: rootless隐藏专区
+Section: 隐藏
 Description: hide page dots隐藏页面点(rootless)
 Author: 来了老弟
 Name: 隐藏桌面翻页点-rootless
@@ -176,7 +176,7 @@ Size: 3184
 MD5sum: b540c6d9347fa3b8403685723781bb79
 SHA1: f4ca6f45490d8b92280cffe00b65e743f920724e
 SHA256: aa5c91e65e8a8995bef118f4b338f6e939b3fb476163648fd377cbd38df5294d
-Section: rootless隐藏专区
+Section: 隐藏
 Description: Hide no earlier notification text（隐藏-没有更早的通知文字）
 Author: 来了老弟
 Name: 隐藏更早的通知-rootless
@@ -191,7 +191,7 @@ Size: 1779718
 MD5sum: 219dbab48608d605c9dac4a0409ff23b
 SHA1: 9a4df2ce3959eecfd9da147de6bb067fa885171b
 SHA256: 7842ed482ba9a68cf74e7e67fe9aa75d0cc17865858fe54b5037bdcb30873289
-Section: Tweaks
+Section: wechat
 Priority: optional
 Description: 斗图助手-Rootless
 Author: Mao
@@ -207,7 +207,7 @@ Size: 66370
 MD5sum: 82c874c096eb4dc9142903925cc1d112
 SHA1: 525e101448891be9d0876c122b58009a28f593f3
 SHA256: dcfcfe5a0882f811cd781fa8d0107c6483f9e0902cd3732b254f5a9df0a043cb
-Section: Rootless
+Section: 系统插件
 Priority: optional
 Description: 左滑返回上一页面
 Author: Mao
@@ -223,7 +223,7 @@ Size: 13736346
 MD5sum: 1cd1a36db89bf422a4a69b6a5f4c0fbe
 SHA1: 1b103bb6030a9339624f477be37a46dc5416a0ec
 SHA256: 2b64983078fd12e0b26dae19d086f2e6b075b2c5e92755ae4045fb3df08a71a5
-Section: Tweaks
+Section: wechat
 Priority: optional
 Description: 微信助手
 Author: Mao
@@ -239,7 +239,7 @@ Size: 25170
 MD5sum: 1046a0152a38008d05fc2dd8c69c51be
 SHA1: bf972a85b3591b0140d46abb569c480475b0ec9d
 SHA256: 015fd9a3868bb45432a4da86ea76463667b320e36cfbbc77ba850d1b63ad8f60
-Section: Rootless
+Section: wechat
 Priority: optional
 Description: 插件管理-Rootless
 Author: Mao
@@ -257,7 +257,7 @@ Size: 1101800
 MD5sum: b6eb52db721a919d94f4deead748bd82
 SHA1: 8e2c48017ee8bc6d0753a926dd1a8b1d59f3326c
 SHA256: 7ca53e8d9dd33d9b9be24042a981b2114f95e1232a9cf42be9ea3463843ed17e
-Section: 嗨-工具
+Section: 工具
 Description: 真正的iOS系统清理和管理实用程序，破解版。
 Author: Ivano Bilenchi <support@ib-soft.net>
 Name: iCleaner Pro(rootless)
@@ -272,7 +272,7 @@ Size: 4316
 MD5sum: 92a237223740c28120efc9d319bb2079
 SHA1: 097606c122ce31264afc8f696008698501481619
 SHA256: 641a8abc6fc4aab0f1155c8f7c85feb7e130f4cd0e6c650851f93f17456e082e
-Section: 嗨-汉化
+Section: 汉化
 Description: Choicy 简体中文包(rootless)。
 Author: 妖刀
 Name: Choicy 简体中文包(rootless)
@@ -287,7 +287,7 @@ Size: 1300
 MD5sum: d6b9680adbfb23b00e34db44b1805cfd
 SHA1: 1fe17eddcd78054dd360d014f63923fbc2ad283b
 SHA256: 568b99ce1c23c4f57e831e2e35131b77022f88ff745ed370afac6a7645ef827a
-Section: 嗨-汉化
+Section: 汉化
 Description: FloatingDockXVI 简体中文包(rootless)。
 Author: 妖刀
 Name: FloatingDockXVI 简体中文包(rootless)
@@ -303,7 +303,7 @@ Size: 434988
 MD5sum: a23724b888f3543dc3532d21e972c0d8
 SHA1: 1536fe76c38c8d7dda8f0ee41a59e886b65ecd5b
 SHA256: 2879ff0d3845ca03fdd1dccb7683eeae9083ed29ad37f0f4c9c32498f620e11e
-Section: Tweaks
+Section: 系统插件
 Description: Control your text or translate as you wish.
 Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
@@ -320,7 +320,7 @@ Size: 3184
 MD5sum: ed2dc501de7ef3438e08a3e424ce086b
 SHA1: 93c528c3c867c79dcba10a72e837d3532c679d1a
 SHA256: a837b9d090693d39da68fa09d0e1152bdc845c9042a0bec48d428e5adda3f1ef
-Section: rootless隐藏专区
+Section: 隐藏
 Description: Hide the small white dots of the desktop page隐藏桌面翻页小白点
 Author: 来了老弟
 Name: 隐藏桌面点-rootless
@@ -336,7 +336,7 @@ Size: 397502
 MD5sum: f472e16db1e935877c8355b7816f1445
 SHA1: 158b16cd6196cb4d323593b864c01b9bd5f4ffd2
 SHA256: 13405f0e24f3ed6c1063ee9489a0f29baa42a60d9c84a9291b73e9c8bcec7354
-Section: Tweaks
+Section: 系统插件
 Description: Floating Dock on iOS 16
 Author: Ethan Whited
 Name: FloatingDockXVI
@@ -352,7 +352,7 @@ Size: 41050
 MD5sum: b0688ecff86d7483fd3a4597027dfa60
 SHA1: 0903a42f6fb505ba4c33e10d34875f78ad27c7b4
 SHA256: 1818a68aab080c51fed676001e956c0e44686dfbf0674fe0765013f8f45d0557
-Section: Tweaks
+Section: 屏蔽
 Description: xina越狱守护进程
 Author: xina520 <3608063@qq.com>
 Name: XinaBlackList
@@ -368,7 +368,7 @@ Size: 196780
 MD5sum: bcef9761c549c312c95d5af26e35fb2f
 SHA1: 73e3f437a297a92903820a4ea5495a3740d3b31d
 SHA256: 1d86370cd37b1b64bbe0e760f80bbf5677c65f5eda77056e0c9809f61fedbb22
-Section: Tweaks
+Section: 插件
 Description: 点击APP右下角-我-右上角三横-长按打开菜单开启功能。功能：移除一些广告|弹窗--无水印保存视频图片 -- 1.0.4:移除底部拍摄 | 显示视频发布时间 | 版本号
 Author: x✨
 Name: 快手Hook
@@ -384,7 +384,7 @@ Size: 98540
 MD5sum: de9f1f35861283cdfb25e6ce8544fc1b
 SHA1: 6c47f432997b95c0962f6f4e7589ca6bff001405
 SHA256: 7751a5b3bff0859104a4d853ecc339a35657511b6f6345f51bb4bb6e90be662f
-Section: Utilities
+Section: 终端
 Description: A MobileTerminal fork
 Author: lordscotland <admin@officialscheduler.com>
 Name: MTerminal - xina
@@ -402,7 +402,7 @@ Size: 91140
 MD5sum: e16c0b72b84b16036a48b5d50e6509d0
 SHA1: c1d76dbf5ca16f855c279de02149d971c5d6d867
 SHA256: c644bfff3c9d2f338c4327fe89d393df4b3688a1f2c3a4aa31434e32fb30b3b5
-Section: Utilities
+Section: 终端
 Priority: optional
 Homepage: https://github.com/dylanaraps/neofetch
 Description: Shows System Information with Distribution Logo
@@ -423,7 +423,7 @@ Size: 5071872
 MD5sum: 695c66f99c658bbe810d0d9db4046e58
 SHA1: 9628ae3121faf10420ab52a9c7573a736a70fa07
 SHA256: f4a1c250af67279f7a138203fdaf06966b426c2e2a5b4d3d21aa35c571ec9b8c
-Section: Netskao-Tweaks
+Section: Netskao
 Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据快捷工具，此版本由站长完整汉化并修改优化。修改优化:增加简单版降级应用，增加可选向下滑动唤出，增加查看应用加密状态，增加面板可选去除面板分割线，增加长按面板图标以安全模式启动，修改原版卸载应用为真实卸载不保留数据，修改原版清除缓存后未同步刷新总数据显示问题，修复原版更多信息页面长按复制的信息错误问题，修改原版重置数据为包括重置程序组内文件夹数据，修改原版重置数据栏数据大小显示为包括程序组内文件夹数据，修改原版重置数据后未同步刷新缓存数据显示和权限个数显示问题，修改原版在非AppStore中下载的应用唤出时无法使用重置数据/重置权限/卸载应用(修改后仅在系统应用上禁止)
 Author: Fouad Raheb
 Name: AppData-Rootless
@@ -439,7 +439,7 @@ Size: 5936
 MD5sum: c80ad5d3cbde99ae284d0127099ea9a7
 SHA1: 8fc779635de3f240e42f771e7795fc0cb209f300
 SHA256: 5874d57813970fa941068aca1cf07a2d47c0761df9ef015da11d4977d06099d1
-Section: Netskao-Tweaks
+Section: Netskao
 Description: BatteryPercentX启用系统原生电池百分比，加深边框颜色，加深充电时电池颜色
 Author: Netskao
 Name: BatteryPercentX-Rootless
@@ -455,7 +455,7 @@ Size: 2364
 MD5sum: b5d19d5d27e955724a9e4f06d29eed48
 SHA1: e076ff2732232e6193e7f0aded49a476009119e2
 SHA256: 4676ef633329b16880062e147e0eab458cc0a6f725cbfc0cb24a48808be70e83
-Section: Netskao-Tweaks
+Section: Netskao
 Description: Disable telephony welcome notifications
 Author: Netskao
 Name: DisableCTNotifyUI-Rootless
@@ -471,7 +471,7 @@ Size: 3052
 MD5sum: 1bfb68bd089c54f27ecb0ede41e696ba
 SHA1: 37a90e9dfabe5845ee2c2a74e44955b247a367a6
 SHA256: f86d1f36722082511bae379976ba04626a3a8c86851612cbfb3c20a7e13f3347
-Section: Netskao-Tweaks
+Section: Netskao
 Description: Disable paste tips, Support iOS14-iOS15
 Author: Netskao
 Name: DisablePasteTips-Rootless
@@ -487,7 +487,7 @@ Size: 13088
 MD5sum: 0e7aca47a99b9ffee6c1f6db2abbdf69
 SHA1: 149b3bef4a959d5101355716c9651ce100902070
 SHA256: a6a460266b8928ab927bf44a3abaf54c0672d138b0b8dd42beed2635c4b28938
-Section: Netskao-Tweaks
+Section: Netskao
 Description: 解除国区账号无法下载国区AppSrore内已下架或者未上架国区的对应TestFlight应用
 Author: Netskao
 Name: DisableTestFlightBlock-Rootless
@@ -503,7 +503,7 @@ Size: 963476
 MD5sum: 287d6ef13ddf9c7342849357776b5e29
 SHA1: 077556c22af0c9c67582bd6f86024b37569a17eb
 SHA256: 7892b282a24d2efc8242455812a9aae223368d06eca6c53768d98ef4881f31f6
-Section: Netskao-Tweaks
+Section: 终端
 Description: injectipa是一款命令行一键注入dylib到ipa工具. 用法: injectipa ipa路径 dylib路径 (如有多个dylib依次填写在末尾即可), 其它参数执行injectipa查看即可, 注入完成后的IPA需要签名使用
 Author: Netskao
 Name: injectipa-Rootless
@@ -520,7 +520,7 @@ Size: 903584
 MD5sum: 2c4a5b8f797f2e0f15d5be5ded15f698
 SHA1: a7b1f71bc89a53fc4924b89779fa13b073db8725
 SHA256: daaa95ce5a41ed465d50b85ad15e8244ec3e28e55eaf2442556f804dc37ce620
-Section: Netskao-Tweaks
+Section: Netskao
 Description: A better way to multitask! Fix support for iOS15+
 Author: c1d3r
 Name: PullOver Pro
@@ -537,7 +537,7 @@ Size: 6948
 MD5sum: 2aa256c72eea2bfda55c8412bb2cea0f
 SHA1: 3fdb293f1ea6b45fbe2dff9ca86e2f3b1204ed88
 SHA256: 35f9f63d48d790fe12da3ca114c89ff13c2871934fbec62ee866984ac3da8c47
-Section: System
+Section: 系统插件
 Description: An awesome library of some sort!!
 Tag: role::developer
 Author: xina520
@@ -554,7 +554,7 @@ Size: 3572
 MD5sum: ef05cccf8a30f258fc65186da8c3c1ff
 SHA1: b307f8200c011e20844e0d040b3ca0d6d8a2edea
 SHA256: 6763becad507b997d3c6ff12503dcc5e476296b6cfa15a6ded8b72837b67b8fa
-Section: Tweaks
+Section: 系统插件
 Description: 禁用ios热启动神经网络引擎,别在后台热加载app咯!
  - 优点:节约内存,少杀后台.
  - 玄学:减少重启概率
@@ -573,7 +573,7 @@ Size: 952392
 MD5sum: 263e005a07adefe52b462d5b3def09ae
 SHA1: c76b941bbe43edb04b761a512e97e7362ea592d4
 SHA256: 362731a6bb35add677c1e554d4d91b733b795ca4511a3a46844393d5e9daf71b
-Section: Utilities
+Section: 系统插件
 Description: 一款将无根插件转换的roothide插件的程序，由M哥编译汉化.
 Author: RootHide
 Depiction: https://github.com/RootHide/RootHideManagerApp
