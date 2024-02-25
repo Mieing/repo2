@@ -96,6 +96,91 @@ Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图�
 Author: Fouad Raheb
 Name: AppData
 
+Package: byg.iosios.net.blockappscreatealbum-rootless
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: debs/rootless/20.deb
+Size: 4464
+MD5sum: 167dd2d41e2d2130eb0a5781c1358a31
+SHA1: 0db6077719f24fc4f194a06e42c1bf96fc7bf095
+SHA256: 7318f1eeec50edece99273321f8617dae11a60066006562db968bff9143dfd44
+Section: 系统增强
+Description: Block applications from creating their own albums阻止应用程序创建自己的相册
+Author: Netskao
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: 阻止应用程序创建自己的相册-Rootless
+Sponsor: 搬运工
+
+Package: byg.iosios.net.enableccmutemodule
+Version: 0.2.0
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Depends: firmware (>> 11.0)
+Filename: debs/rootless/1181.deb
+Size: 1150
+MD5sum: edf6f2e7861d002f97bdcad49991506c
+SHA1: 354283e617de147b0ef9b9dad69e70f4a86afce7
+SHA256: 5fe8765d1c2e4317e245d917fe4538503697f5ea3950f35f3210c0fa717bb6c8
+Section: 系统增强
+Description: 激活原生 iPhone 控制中心静音模块！
+Author: zhaonan
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: CC MuteModul静音-Rootless
+Sponsor: 搬运工
+
+Package: byg.iosios.net.wechatpurification-rootless
+Version: 4.2-6.3
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Installed-Size: 19660
+Depends: mobilesubstrate, firmware (>= 12.0)
+Conflicts: netskao.wcpureextension-rootless,byg.iosios.net.time
+Filename: debs/rootless/1465.deb
+Size: 9330390
+MD5sum: 96a780848b29887943a25467019ec0c5
+SHA1: 4db4cbad3aa7a63a8fe7fc93cbc4a3032775085e
+SHA256: 7dba92927481bc2f41087f4c4eca262a921b3f7119d7c1f7442f532f301e7d1f
+Section: 微信插件
+Description: 这可能是最后一个版本了，本次更新是为了更改插件说明！高一个小版本是为了让大家看到更新了！由威锋论坛峰友jamkkes免费分享发布！感谢大佬无私奉献！也感谢精神小伙！微信净化还原聊天本质，干净的微信给你，完美支持8.0.29及以上8.0.46以下版本，高版本微信也可以使用，但是转发朋友圈或者其他功能可能会因年久失修而失效！设置位于微信-设置，请不要屏蔽微信越狱，不然不显示插件！微信净化是多少人的信仰插件，冲！
+Author: Netskao
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: 微信净化-Rootless
+Sponsor: 搬运工
+
+Package: cn.llld.hidepagedots
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/rootless/隐藏页面点2-rootless.deb
+Size: 3164
+MD5sum: 8cbe88bf568cba1ee92cd3b5f50953f6
+SHA1: d9b53ac4033171d7cbf9f4a6fa946c765f286979
+SHA256: d13b1f460a01d7366a8bcf528e7864f66ed086e4f52edce4185d678f1f5c9b6e
+Section: rootless隐藏专区
+Description: hide page dots隐藏页面点(rootless)
+Author: 来了老弟
+Name: 隐藏桌面翻页点-rootless
+
+Package: cn.llld.nc
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/rootless/隐藏更早的通知_0.0.1-1+debug_iphoneos-arm64.deb
+Size: 3184
+MD5sum: b540c6d9347fa3b8403685723781bb79
+SHA1: f4ca6f45490d8b92280cffe00b65e743f920724e
+SHA256: aa5c91e65e8a8995bef118f4b338f6e939b3fb476163648fd377cbd38df5294d
+Section: rootless隐藏专区
+Description: Hide no earlier notification text（隐藏-没有更早的通知文字）
+Author: 来了老弟
+Name: 隐藏更早的通知-rootless
+
 Package: com.25mao.doutu.rootless
 Version: 3.1-5
 Architecture: iphoneos-arm64
@@ -161,6 +246,101 @@ Author: Mao
 Name: 微信插件管理-Rootless
 Sponsor: admin@25mao.com
 
+Package: com.dao.icleanerpro
+Version: 7.10.0
+Architecture: iphoneos-arm64
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner, xyz.cypwn.icleanerprocrackrootless, com.exile90.icleanerpro
+Filename: debs/rootless/iCleaner Pro(rootless).deb
+Size: 1101800
+MD5sum: b6eb52db721a919d94f4deead748bd82
+SHA1: 8e2c48017ee8bc6d0753a926dd1a8b1d59f3326c
+SHA256: 7ca53e8d9dd33d9b9be24042a981b2114f95e1232a9cf42be9ea3463843ed17e
+Section: 嗨-工具
+Description: 真正的iOS系统清理和管理实用程序，破解版。
+Author: Ivano Bilenchi <support@ib-soft.net>
+Name: iCleaner Pro(rootless)
+
+Package: com.hk.choicy.cn.rl
+Version: 1.4.6
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: debs/rootless/Choicy 中文包(rootless).deb
+Size: 4316
+MD5sum: 92a237223740c28120efc9d319bb2079
+SHA1: 097606c122ce31264afc8f696008698501481619
+SHA256: 641a8abc6fc4aab0f1155c8f7c85feb7e130f4cd0e6c650851f93f17456e082e
+Section: 嗨-汉化
+Description: Choicy 简体中文包(rootless)。
+Author: 妖刀
+Name: Choicy 简体中文包(rootless)
+
+Package: com.hk.floatingdock16.cn.rl
+Version: 1.8
+Architecture: iphoneos-arm64
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: debs/rootless/FloatingDockXVI中文包(rootless).deb
+Size: 1300
+MD5sum: d6b9680adbfb23b00e34db44b1805cfd
+SHA1: 1fe17eddcd78054dd360d014f63923fbc2ad283b
+SHA256: 568b99ce1c23c4f57e831e2e35131b77022f88ff745ed370afac6a7645ef827a
+Section: 嗨-汉化
+Description: FloatingDockXVI 简体中文包(rootless)。
+Author: 妖刀
+Name: FloatingDockXVI 简体中文包(rootless)
+
+Package: com.lclrc.hammerit
+Version: 1.5.0
+Architecture: iphoneos-arm64
+Maintainer: lclrc(SquidForce)
+Installed-Size: 2288
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, firmware (>= 14.0)
+Filename: debs/rootless/com.lclrc.hammerit_1.5.0_iphoneos-arm64.deb
+Size: 434988
+MD5sum: a23724b888f3543dc3532d21e972c0d8
+SHA1: 1536fe76c38c8d7dda8f0ee41a59e886b65ecd5b
+SHA256: 2879ff0d3845ca03fdd1dccb7683eeae9083ed29ad37f0f4c9c32498f620e11e
+Section: Tweaks
+Description: Control your text or translate as you wish.
+Author: lclrc(SquidForce)
+Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+Name: Hammer It
+
+Package: com.llld.ycfyd
+Version: 0.0.1-1
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/rootless/隐藏桌面翻页点(rootless).deb
+Size: 3184
+MD5sum: ed2dc501de7ef3438e08a3e424ce086b
+SHA1: 93c528c3c867c79dcba10a72e837d3532c679d1a
+SHA256: a837b9d090693d39da68fa09d0e1152bdc845c9042a0bec48d428e5adda3f1ef
+Section: rootless隐藏专区
+Description: Hide the small white dots of the desktop page隐藏桌面翻页小白点
+Author: 来了老弟
+Name: 隐藏桌面点-rootless
+
+Package: com.nahtedetihw.floatingdockxvi
+Version: 1.9
+Architecture: iphoneos-arm64
+Maintainer: Ethan Whited
+Installed-Size: 812
+Depends: preferenceloader
+Filename: debs/rootless/com.nahtedetihw.floatingdockxvi_1.9_iphoneos-arm64.deb
+Size: 397502
+MD5sum: f472e16db1e935877c8355b7816f1445
+SHA1: 158b16cd6196cb4d323593b864c01b9bd5f4ffd2
+SHA256: 13405f0e24f3ed6c1063ee9489a0f29baa42a60d9c84a9291b73e9c8bcec7354
+Section: Tweaks
+Description: Floating Dock on iOS 16
+Author: Ethan Whited
+Name: FloatingDockXVI
+
 Package: com.xina.blacklist
 Version: 0.0.3-1+debug
 Architecture: iphoneos-arm64
@@ -176,6 +356,22 @@ Section: Tweaks
 Description: xina越狱守护进程
 Author: xina520 <3608063@qq.com>
 Name: XinaBlackList
+
+Package: com.xx.kshook
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 692
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/rootless/com.xx.kshook_1.0.4_iphoneos-arm64.deb
+Size: 196780
+MD5sum: bcef9761c549c312c95d5af26e35fb2f
+SHA1: 73e3f437a297a92903820a4ea5495a3740d3b31d
+SHA256: 1d86370cd37b1b64bbe0e760f80bbf5677c65f5eda77056e0c9809f61fedbb22
+Section: Tweaks
+Description: 点击APP右下角-我-右上角三横-长按打开菜单开启功能。功能：移除一些广告|弹窗--无水印保存视频图片 -- 1.0.4:移除底部拍摄 | 显示视频发布时间 | 版本号
+Author: x✨
+Name: 快手Hook
 
 Package: mterminal
 Version: 1.6
@@ -193,6 +389,29 @@ Description: A MobileTerminal fork
 Author: lordscotland <admin@officialscheduler.com>
 Name: MTerminal - xina
 
+Package: neofetch
+Version: 7.1.0+20220216.ccd5d9f
+Architecture: iphoneos-arm64
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 384
+Depends: bash (>= 5.0), awk
+Conflicts: com.matdev.neofetch-ios
+Replaces: com.matdev.neofetch-ios
+Filename: debs/rootless/neofetch_7.1.0+20220216.ccd5d9f_iphoneos-arm64.deb
+Size: 91140
+MD5sum: e16c0b72b84b16036a48b5d50e6509d0
+SHA1: c1d76dbf5ca16f855c279de02149d971c5d6d867
+SHA256: c644bfff3c9d2f338c4327fe89d393df4b3688a1f2c3a4aa31434e32fb30b3b5
+Section: Utilities
+Priority: optional
+Homepage: https://github.com/dylanaraps/neofetch
+Description: Shows System Information with Distribution Logo
+ Neoftech is a cross-platform and easy-to-use system information
+ command line script that collects your system information
+ and display it on the terminal next to an image, it could be your
+ distributions logo or any ascii art of your choice.
+Author: Dylan Araps <dylan.araps@gmail.com>
+
 Package: netskao.appdata-rootless
 Version: 1.4.1
 Architecture: iphoneos-arm64
@@ -208,6 +427,140 @@ Section: Netskao-Tweaks
 Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据快捷工具，此版本由站长完整汉化并修改优化。修改优化:增加简单版降级应用，增加可选向下滑动唤出，增加查看应用加密状态，增加面板可选去除面板分割线，增加长按面板图标以安全模式启动，修改原版卸载应用为真实卸载不保留数据，修改原版清除缓存后未同步刷新总数据显示问题，修复原版更多信息页面长按复制的信息错误问题，修改原版重置数据为包括重置程序组内文件夹数据，修改原版重置数据栏数据大小显示为包括程序组内文件夹数据，修改原版重置数据后未同步刷新缓存数据显示和权限个数显示问题，修改原版在非AppStore中下载的应用唤出时无法使用重置数据/重置权限/卸载应用(修改后仅在系统应用上禁止)
 Author: Fouad Raheb
 Name: AppData-Rootless
+
+Package: netskao.batterypercentx-rootless
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 168
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/rootless/netskao.batterypercentx-rootless_1.1-1_iphoneos-arm64.deb
+Size: 5936
+MD5sum: c80ad5d3cbde99ae284d0127099ea9a7
+SHA1: 8fc779635de3f240e42f771e7795fc0cb209f300
+SHA256: 5874d57813970fa941068aca1cf07a2d47c0761df9ef015da11d4977d06099d1
+Section: Netskao-Tweaks
+Description: BatteryPercentX启用系统原生电池百分比，加深边框颜色，加深充电时电池颜色
+Author: Netskao
+Name: BatteryPercentX-Rootless
+
+Package: netskao.disablectnotifyui-rootless
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 136
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/rootless/netskao.disablectnotifyui-rootless_1.1-1_iphoneos-arm64.deb
+Size: 2364
+MD5sum: b5d19d5d27e955724a9e4f06d29eed48
+SHA1: e076ff2732232e6193e7f0aded49a476009119e2
+SHA256: 4676ef633329b16880062e147e0eab458cc0a6f725cbfc0cb24a48808be70e83
+Section: Netskao-Tweaks
+Description: Disable telephony welcome notifications
+Author: Netskao
+Name: DisableCTNotifyUI-Rootless
+
+Package: netskao.disablepastetips-rootless
+Version: 1.1-5
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 168
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/rootless/netskao.disablepastetips-rootless_1.1-5_iphoneos-arm64.deb
+Size: 3052
+MD5sum: 1bfb68bd089c54f27ecb0ede41e696ba
+SHA1: 37a90e9dfabe5845ee2c2a74e44955b247a367a6
+SHA256: f86d1f36722082511bae379976ba04626a3a8c86851612cbfb3c20a7e13f3347
+Section: Netskao-Tweaks
+Description: Disable paste tips, Support iOS14-iOS15
+Author: Netskao
+Name: DisablePasteTips-Rootless
+
+Package: netskao.disabletestflightblock-rootless
+Version: 1.1-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 104
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/rootless/netskao.disabletestflightblock-rootless_1.1-4_iphoneos-arm64.deb
+Size: 13088
+MD5sum: 0e7aca47a99b9ffee6c1f6db2abbdf69
+SHA1: 149b3bef4a959d5101355716c9651ce100902070
+SHA256: a6a460266b8928ab927bf44a3abaf54c0672d138b0b8dd42beed2635c4b28938
+Section: Netskao-Tweaks
+Description: 解除国区账号无法下载国区AppSrore内已下架或者未上架国区的对应TestFlight应用
+Author: Netskao
+Name: DisableTestFlightBlock-Rootless
+
+Package: netskao.injectipa-rootless
+Version: 1.4-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 3508
+Depends: firmware (>= 15.0)
+Filename: debs/rootless/netskao.injectipa-rootless_1.4-4_iphoneos-arm64.deb
+Size: 963476
+MD5sum: 287d6ef13ddf9c7342849357776b5e29
+SHA1: 077556c22af0c9c67582bd6f86024b37569a17eb
+SHA256: 7892b282a24d2efc8242455812a9aae223368d06eca6c53768d98ef4881f31f6
+Section: Netskao-Tweaks
+Description: injectipa是一款命令行一键注入dylib到ipa工具. 用法: injectipa ipa路径 dylib路径 (如有多个dylib依次填写在末尾即可), 其它参数执行injectipa查看即可, 注入完成后的IPA需要签名使用
+Author: Netskao
+Name: injectipa-Rootless
+
+Package: netskao.pulloverpro
+Version: 2.1.4-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 3528
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.c1d3r.pulloverpro
+Filename: debs/rootless/netskao.pulloverpro_2.1.4-1_iphoneos-arm64.deb
+Size: 903584
+MD5sum: 2c4a5b8f797f2e0f15d5be5ded15f698
+SHA1: a7b1f71bc89a53fc4924b89779fa13b073db8725
+SHA256: daaa95ce5a41ed465d50b85ad15e8244ec3e28e55eaf2442556f804dc37ce620
+Section: Netskao-Tweaks
+Description: A better way to multitask! Fix support for iOS15+
+Author: c1d3r
+Name: PullOver Pro
+
+Package: oldabi-xina
+Version: 1.0.0-2+debug
+Architecture: iphoneos-arm64
+Maintainer: xina520
+Installed-Size: 88
+Replaces: oldabi
+Provides: oldabi
+Filename: debs/rootless/oldabi-xina_1.0.0-2_iphoneos-arm64.deb
+Size: 6948
+MD5sum: 2aa256c72eea2bfda55c8412bb2cea0f
+SHA1: 3fdb293f1ea6b45fbe2dff9ca86e2f3b1204ed88
+SHA256: 35f9f63d48d790fe12da3ca114c89ff13c2871934fbec62ee866984ac3da8c47
+Section: System
+Description: An awesome library of some sort!!
+Tag: role::developer
+Author: xina520
+Name: oldabi-xina
+
+Package: zp.stopautolaunchapps
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/rootless/zp.stopautolaunchapps_1.0.2_iphoneos-arm64.deb
+Size: 3572
+MD5sum: ef05cccf8a30f258fc65186da8c3c1ff
+SHA1: b307f8200c011e20844e0d040b3ca0d6d8a2edea
+SHA256: 6763becad507b997d3c6ff12503dcc5e476296b6cfa15a6ded8b72837b67b8fa
+Section: Tweaks
+Description: 禁用ios热启动神经网络引擎,别在后台热加载app咯!
+ - 优点:节约内存,少杀后台.
+ - 玄学:减少重启概率
+Author: zqbb
+Name: 听我说谢谢你 - rootless
+Sileodepiction: https://rootless.zqbb.cf/web/zp.stopautolaunchapps
 
 Package: com.roothide.patcher
 Version: 1.5-13+debug
