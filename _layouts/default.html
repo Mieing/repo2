@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+</head>
+<body>
+  <header>
+    <h1>{{ page.title }}</h1>
+  </header>
+  
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>Current time: <span id="current-time"></span></p>
+  </footer>
+
+  <script>
+    // 获取当前时间
+    function getCurrentTime() {
+      var now = new Date();
+      var hours = now.getHours();
+      var minutes = now.getMinutes();
+      var seconds = now.getSeconds();
+      
+      // 格式化时间
+      var formattedTime = hours + ':' + (minutes < 10 ? '0' + minutes : minutes) + ':' + (seconds < 10 ? '0' + seconds : seconds);
+      
+      return formattedTime;
+    }
+
+    // 更新时间
+    function updateCurrentTime() {
+      document.getElementById('current-time').textContent = getCurrentTime();
+    }
+
+    // 每秒更新一次时间
+    setInterval(updateCurrentTime, 1000);
+
+    // 页面加载时立即更新时间
+    updateCurrentTime();
+  </script>
+</body>
+</html>
