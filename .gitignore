@@ -1,1 +1,2 @@
-Zone.Identifier
+# Ignore files with 'Zone.Identifier' suffix
+*Zone.Identifier
