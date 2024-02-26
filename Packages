@@ -60,7 +60,7 @@ Size: 66252
 MD5sum: f71cb54e1c9dd25c86521ea8c6a71525
 SHA1: 3aca04a11a308f486034771d9b969f2283854390
 SHA256: bd0788843e1a4daf4c2a533423049be0582027b04153070e8e6172c451878c0e
-Section: 系统插件
+Section: Tweaks
 Priority: optional
 Description: 左滑返回上一页
 Author: Mao
@@ -159,7 +159,7 @@ Size: 673816
 MD5sum: 90a7163ee3d29d7a97e26ac439a6c8a0
 SHA1: 5bf998bc82e22ce2d04347a1bb6b2b743a900ed9
 SHA256: c4c9025cd69678c46bce06ad1d58ca1160960cb4c9d155e82e74a42295a310dc
-Section: Netskao
+Section: Tweaks
 Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据快捷工具，此版本由站长完整汉化并修改优化。修改优化:增加简单版降级应用，增加可选向下滑动唤出，增加查看应用加密状态，增加面板可选去除面板分割线，增加长按面板图标以安全模式启动，修改原版卸载应用为真实卸载不保留数据，修改原版清除缓存后未同步刷新总数据显示问题，修复原版更多信息页面长按复制的信息错误问题，修改原版重置数据为包括重置程序组内文件夹数据，修改原版重置数据栏数据大小显示为包括程序组内文件夹数据，修改原版重置数据后未同步刷新缓存数据显示和权限个数显示问题，修改原版在非AppStore中下载的应用唤出时无法使用重置数据/重置权限/卸载应用(修改后仅在系统应用上禁止)
 Author: Fouad Raheb
 Name: AppData
@@ -268,7 +268,7 @@ SHA1: 4db4cbad3aa7a63a8fe7fc93cbc4a3032775085e
 SHA256: 7dba92927481bc2f41087f4c4eca262a921b3f7119d7c1f7442f532f301e7d1f
 Section: Tweaks
 Description: 这可能是最后一个版本了，本次更新是为了更改插件说明！高一个小版本是为了让大家看到更新了！由威锋论坛峰友jamkkes免费分享发布！感谢大佬无私奉献！也感谢精神小伙！微信净化还原聊天本质，干净的微信给你，完美支持8.0.29及以上8.0.46以下版本，高版本微信也可以使用，但是转发朋友圈或者其他功能可能会因年久失修而失效！设置位于微信-设置，请不要屏蔽微信越狱，不然不显示插件！微信净化是多少人的信仰插件，冲！
-Author: Tweaks
+Author: Netskao
 Icon: https://chinesebuilding.club/pic/cydia.png
 Name: 微信净化-Rootless
 Sponsor: 搬运工
@@ -431,6 +431,43 @@ Description: A cool MobileSubstrate Tweak made By TG@hiepkimcdtk55
 Author: LK
 Name: NiceGram
 
+Package: com.lclrc.controltab
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: SquidForce
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.chr1s.newtab
+Filename: debs/rootless/com.lclrc.controltab_1.0_iphoneos-arm64.deb
+Size: 6112
+MD5sum: 99fdb6bf17f0be5fb441b6f76c9e77a5
+SHA1: deafe2721eb678d28bfe0074980a55e369a1ab31
+SHA256: 5fafffcff06e2fd5623738c4312556178318afcb89b13aa9cf4ef78c42bc91a6
+Section: Tweaks
+Description: tweak for Safari
+Author: SquidForce
+Name: ControlTab - 控制Safari标签页
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
+
+Package: com.lclrc.exacttime
+Version: 2.0.4
+Architecture: iphoneos-arm64
+Maintainer: SquidForce
+Installed-Size: 1284
+Depends: mobilesubstrate
+Conflicts: com.gilshahar7.exacttimemail, com.gilshahar7.exacttimephone, com.gilshahar7.exacttimemessages
+Filename: debs/rootless/com.lclrc.exacttime_2.0.4_iphoneos-arm64.deb
+Size: 99490
+MD5sum: 883f2bd82dbfff0d032c42bf8b8c64de
+SHA1: b50bad8aa0505fb4121e6211ea8312d6ea8faf4c
+SHA256: e3f4ee600e88e312cbb0461327674c4866db572fdaf74fd060392d3259f36079
+Section: Tweaks
+Description: 在通知、信息、电话、邮箱中显示准确时间，闹钟中显示剩余时间。Shows the exact time of notifications, messages, calls and emails, and show remain time of alarms.
+Author: gilshahar7, SquidForce
+Icon: file:///var/jb/Library/PreferenceBundles/ExactTimeprefs.bundle/ExactTime@3x.png
+Name: ExactTime - 给个准确时间，OK？
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.exacttime/depiction.json
+
 Package: com.lclrc.hammerit
 Version: 1.5.0
 Architecture: iphoneos-arm64
@@ -447,6 +484,38 @@ Description: Control your text or translate as you wish.
 Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It
+
+Package: com.lclrc.hidepullover
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: SquidForce
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/rootless/com.lclrc.hidepullover_0.0.1_iphoneos-arm64.deb
+Size: 4394
+MD5sum: de1a61c22b55221dbe011ee842280ad6
+SHA1: 6da7d4d2e6edf9fae0ec9ea65e8d23fb843e0bec
+SHA256: e815bacd310f1270a2c38fb79959955f53800d45ac8ae6f0cf5f6062be391bc3
+Section: Tweaks
+Description: 1. 系统截屏时隐藏    2. 收起到最小时让它不那么显眼
+Author: SquidForce
+Name: HidePullOver 隐藏PullOver小把手
+
+Package: com.lclrc.recordanywhere
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: Muirey03 & lclrc
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/rootless/com.lclrc.recordanywhere_1.1.0_iphoneos-arm64.deb
+Size: 4484
+MD5sum: 961117816b55319fb135641c10755bc4
+SHA1: 485aacebcb9e9cf0cf2551e54c8591bef76d028d
+SHA256: 3cbd9f39fc8e34f449e7ccc0365f445dd9b9935368e8ba85b87a131652ec0c81
+Section: Tweaks
+Description: 使手机在锁屏状态也可以继续录屏。修复支持Dopamine，感谢原作者提供的思路。
+Author: Muirey03 & lclrc
+Name: 锁屏录屏RecordAnywhere
 
 Package: com.llld.ycfyd
 Version: 0.0.1-1
@@ -729,7 +798,7 @@ Size: 952392
 MD5sum: 263e005a07adefe52b462d5b3def09ae
 SHA1: c76b941bbe43edb04b761a512e97e7362ea592d4
 SHA256: 362731a6bb35add677c1e554d4d91b733b795ca4511a3a46844393d5e9daf71b
-Section: Utilities
+Section: Tweaks
 Description: 一款将无根插件转换的roothide插件的程序，由M哥编译汉化.
 Author: RootHide
 Depiction: https://github.com/RootHide/RootHideManagerApp
