@@ -1,132 +1,39 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="apple-touch-icon" href="https://mieing.github.io/repo/CydiaIcon.png">
-<link rel="shortcut icon" href="https://mieing.github.io/repo/CydiaIcon.png" type="image/x-icon">
-<link rel="shortcut icon" href="https://mieing.github.io/repo/CydiaIcon.ico" type="image/x-icon"> 
-    <title>Mieing's Repo</title>
-<style>
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: Arial, sans-serif;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: linear-gradient(to right, #30DDCE, #536976);
-        transition: background 0.5s ease;
+  <title>Mieing</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <style>
+    .container h1 {
+      display: flex;
+      align-items: center;
     }
-
-    button {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        border: none;
-        cursor: pointer;
-        background: linear-gradient(to right, #ff6e7f, #bfe9ff);
-        transition: background 0.5s ease;
+    .container h1 img {
+      margin-right: 10px; /* 调整图像与文本之间的间距 */
     }
-
-    button:focus {
-        outline: none;
+    .container h1 span {
+      font-size: 90%; /* 调整文本的字体大小 */
     }
-
-    .content {
-        text-align: center;
-        color: white;
-        z-index: 1; /* 确保内容在背景上方显示 */
-    }
-
-    .button-container {
-        margin-top: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .legend {
-        margin: 5px 0;
-        color: white;
-    }
-
-    /* 调整图标样式 */
-    .icon {
-        width: 50px; /* 图标大小 */
-        height: 50px; /* 图标大小 */
-        margin: 10px; /* 图标之间的间距 */
-        border-radius: 10px; /* 图标圆角 */
-    }
-
-    .follow-button {
-        margin-top: auto; /* 将关注按钮置底 */
-        color: white; /* 设置关注按钮的文字颜色 */
-        text-decoration: none; /* 去除下划线 */
-    }
-
-    /* 文字动画效果 */
-    .animated-dots span {
-        opacity: 0;
-        animation: blink 0.5s infinite alternate;
-    }
-
-    .animated-dots span:nth-child(1) {
-        animation-delay: 0.1s;
-    }
-
-    .animated-dots span:nth-child(2) {
-        animation-delay: 0.2s;
-    }
-
-    .animated-dots span:nth-child(3) {
-        animation-delay: 0.3s;
-    }
-
-    @keyframes blink {
-        0% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 1;
-        }
-    }
-
-    /* 去除X图标白边 */
-    .icon-x {
-        outline: none;
-    }
-</style>
+  </style>
 </head>
 <body>
-    <div class="content">
-        <h1>Mieing's Repo</h1>
-        <p>欢迎来到Mieing's Repo<span class="animated-dots"><span>.</span><span>.</span><span>.</span></span></p>
-        <div class="button-container">
-            <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://mieing.github.io/repo/" target="_blank">
-                <img class="icon" src="https://mieing.github.io/repo/images/cydia.png" />
-            </a>
-            <a href="sileo://source/https://mieing.github.io/repo/" target="_blank">
-                <img class="icon" src="https://mieing.github.io/repo/images/sileo.png" />
-            </a>
-            <a href="apt-repo://https://mieing.github.io/repo/" target="_blank">
-                <img class="icon" src="https://mieing.github.io/repo/images/Saily.png" />            
-            </a>
-            <a href="https://twitter.com/Mieing001"  target="_blank">
-                <img class="icon icon-x" src="https://mieing.github.io/repo/images/X.png" />
-            </a>
-        </div>
+
+<div class="container">
+  <h1><img src="CydiaIcon.png"> <span>Mieing</span></h1>
+</div>
+  
+<div class="container">
+  <div class="well">
+    <p><span class="text-primary"><b></span></b>欢迎来到Mieing's Repo</p>
+        <a class="btn btn-sm btn-default" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://mieing.github.io/repo/">Add to Cydia</a><br><br>
+        <a class="btn btn-sm btn-default" href
+="zbra://sources/add/https://mieing.github.io/repo/">Add to Zebra</a><br><br>
+        <a class="btn btn-sm btn-default" href="sileo://source/https://mieing.github.io/repo/">Add to Sileo</a>
     </div>
-    <script>
-        document.addEventListener('click', function(event) {
-            var colors = ['#30DDCE', '#536976', '#1cc7d0', '#4e4d4d', '#1cc7d0'];
-            var color1 = colors[Math.floor(Math.random() * colors.length)];
-            var color2 = colors[Math.floor(Math.random() * colors.length)];
-            var gradient = 'linear-gradient(242deg, ' + color1 + ', ' + color2 + ')';
-            document.body.style.background = gradient;
-        });
-    </script>
+</div>
+
 </body>
 </html>
